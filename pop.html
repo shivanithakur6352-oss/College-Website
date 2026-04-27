@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+
+    <style>
+        body {
+            margin: 0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-size: cover;
+            color: white;
+            text-align:center;
+            background-image: url(review11.jpeg);
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            margin-top: 200px;
+        }
+
+        #text {
+            font-size: 50px;
+            border-right: 3px solid rgba(14, 1, 1, 0.952);
+            display: inline;
+            padding-right: 5px;
+            animation: blink 1s infinite;
+            color:black;
+        }
+
+
+
+        .buttons {
+            margin-top: 30px;
+            display: none;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+    
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1 id="text"></h1>
+
+    <div class="buttons" id="btns">
+        <button onclick="goToSite()">Continue</button>
+        <button onclick="leaveSite()">Leave</button>
+    </div>
+</div>
+
+<script>
+    let message = "Let's Explore AGC";
+    let i = 0;
+
+    function typeEffect() {
+        if (i < message.length) {
+            document.getElementById("text").innerHTML += message.charAt(i);
+            i++;
+            setTimeout(typeEffect, 100);
+        } else {
+            
+            document.getElementById("btns").style.display = "block";
+        }
+    }
+
+    typeEffect();
+
+    function goToSite() {
+        window.location.href = "project.html";
+    }
+
+    function leaveSite() {
+        alert("Thanks for visiting ");
+    
+    }
+</script>
+
+</body>
+</html>

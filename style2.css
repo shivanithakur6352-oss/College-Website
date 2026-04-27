@@ -1,0 +1,33 @@
+.title {
+    text-align: center;     
+    font-size: 40px;      
+    background-color: blue;   
+    color: white;
+    padding: 15px;             
+    border-radius: 8px;        
+}
+
+.fee-container {
+    padding: 30px;
+    text-align: center;
+}
+
+.table-box {
+    overflow-x: auto;
+}
+
+.fee-table {
+    min-width: 1200px;
+    border-collapse: collapse;
+}
+
+.fee-table th {
+    background: #0d6efd;
+    color: white;
+    padding: 10px;
+}
+
+.fee-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}

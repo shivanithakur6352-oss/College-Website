@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style5.css">
+    <style>
+        body{
+            background-color: rgb(248, 252, 253);
+        }
+    </style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    
+    <div class="left-section">
+        <img src="logo.jpeg" class="logo">
+
+        <div class="info">
+            <h3>NAAC Grade A</h3>
+            <p>UGC Autonomous</p>
+        </div>
+    </div>
+
+    
+    <h1 class="title">Amritsar Group of Colleges</h1>
+
+</div>
+
+
+
+<ul class="navbar">
+
+    <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+
+    <li class="nav-item"><a class="nav-link" href="about">ABOUT US</a></li>
+
+    
+    <li class="nav-item dropdown">
+        <a class="nav-link dropbtn" href="#">ACADEMICS</a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="academic.html">Academic Calendar</a>
+            <a class="dropdown-item" href="academic departments.html">Departments</a>
+        </div>
+    </li>
+
+
+    <li class="nav-item dropdown">
+        <a class="nav-link dropbtn" href="#">ADMISSIONS</a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="agc programs.html">Programs Offered</a>
+            <a class="dropdown-item" href="fee.html">Fee Structure</a>
+        </div>
+    </li>
+
+    
+    <li class="nav-item dropdown">
+        <a class="nav-link dropbtn" href="#">PLACEMENT</a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="placed.html">Placed Students</a>
+        
+        </div>
+    </li>
+
+    <li class="nav-item dropdown ">
+        <a class="nav-link dropbtn" href="#">CONTACT</a>
+       <div class="dropdown-menu">
+        <a class ="dropdown-menu" href="contact.html"> address</a>
+       </div>
+       </li>
+</ul>
+
+
+
+<div class="hero">
+    <img src="agc.jpg" alt="College Image">
+</div>
+
+
+
+
+
+
+<section class="why">
+    <h2 style="color:rgb(240, 13, 13)">WHY CHOOSE AGC?</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3 style="color:coral">Nurturing Entrepreneurship</h3>
+            <p>We prepare students for jobs and innovation.</p>
+        </div>
+
+        <div class="card">
+            <h3 style="color:coral">NAAC 'A' Grade Excellence</h3>
+            <p>High-quality education with national standards.</p>
+        </div>
+
+        <div class="card">
+            <h3 style="color:coral">Global Connect</h3>
+            <p>International opportunities and collaborations.</p>
+        </div>
+
+        <div class="card">
+            <h3 style="color:coral">Hostel Facility</h3>
+            <p>Comfortable living environment for students.</p>
+        </div>
+
+        <div class="card">
+            <h3 style="color:coral">Learning Excellence</h3>
+            <p>Access to digital libraries and resources.</p>
+        </div>
+
+        <div class="card">
+            <h3 style="color:coral">Industry Learning</h3>
+            <p>Real-world exposure with practical training.</p>
+        </div>
+
+    </div>
+</section>
+                   <select class="form-control" type="text" id="txtCourse" name="course" placeholder="course" autocomplete="off"  required>
+                                           <option value=""> Course</option>
+                                        <optgroup label="B.Tech" >
+                                            <option>B.Tech Computer Engg.</option>
+                                            <option>B.Tech Computer Science &amp; Engg.</option>
+                                            <option>B.Tech Artificial Intelligence &amp; Machine Learning</option>
+                                            <option>B.Tech Computer Sciences &amp; Engg.(LEET)</option>
+                                            <option>B.Tech Mechanical Engg.</option>
+                                            <option>B.Tech Mechanical Engg. (LEET)</option>
+                                            <option>B.Tech Electrical Engg.</option>
+                                            <option>B.Tech Electrical Engg.(LEET)</option>
+                                            <option>B.Tech Civil Engg.</option>
+                                            <option>B.Tech Civil Engg.(LEET)</option>
+                                        </optgroup>
+
+                                        <optgroup label="Other Graduation Courses">
+                                            <option> B.HMCT</option>
+                                            <option>B Sc. Fashion Design</option>
+                                            <option>BBA</option>
+                                            <option>BA Computer Science</option>
+                                            <option>BCA</option>
+                                            <option>BCA 2 Year</option>
+                                            <option>B.Com(Honors)</option>
+                                            <option>Bachelor Of Tourism And Travel Management</option>
+                                            <option>B.sc Nutrition and Dietetics</option>
+                                            <option>B.Sc Medical Laboratory Sciences</option>
+                                            <option>B.Sc Operation Theatre Technology</option>
+                                            <option>B.Sc. in Radiology and Imaging Technology</option>
+                                        </optgroup>
+
+                                        <optgroup label="Post-Graduation Courses">
+                                            <option>M.Tech CSE</option>
+                                            <option>M.Tech CSE (Part Time)</option>
+                                            <option>M.Tech Civil</option>
+                                            <option>M.Tech Civil (Part Time)</option>
+                                            <option>MBA.</option>
+                                            <!--<option >MCA.</option>-->
+                                            <option >MCA 2 Year</option>
+                                            <option>M.COM</option>
+                                            <option>M.Sc Fashion Design</option>
+                                            <option>M.Sc Fashion Marketing Management</option>
+                                            <option>M.Sc Physics</option>
+                                            <option>M.Sc Chemistry</option>
+                                            <option>M.Sc Mathematics</option>
+                                            <option>M.Sc Computer Science</option>
+                                            <option>Master in Hospital Administration</option>
+                                            <option>MHMCT</option>
+                                            <option>MTTM</option>
+                                        </optgroup>
+
+                                        <optgroup label="Pharmacy Courses">
+                                            <option>B.PHARMACY</option>
+                                            <option>B.PHARMACY (leet)</option>
+                                            <option>D.PHARMACY</option>
+                                            <option>M.Pharm (Pharmacognosy)</option>
+                                            <option>M.Pharm (Pharmaceutics)</option>
+                                            <option>Pharm D (Doctor of Pharmacy)</option>
+                                        </optgroup>
+
+                                        <optgroup label="Law courses">
+                                            <option> B.A LLB</option>
+                                            <option>LLB</option>
+                                        </optgroup>
+
+                                        <optgroup label="B.Vocational Courses">
+                                            <option>B.Voc Hospitality & Catering Technology</option>
+                                            <option>B.Voc Automobile Servicing</option>
+                                            <option>B.Voc Fashion Design And Garment Technology</option>
+                                            <option>B.Voc E-Commerce and Digital Marketing</option>
+                                            <option>B.Voc Electrical Technician</option>
+                                        </optgroup>
+                                   </select>
+
+
+
+<div class="form-container">
+
+    <h2 style="text-align: center;">Student Registration Form</h2>
+
+    <form action="register.php" method="POST">
+        <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input type="text" name="name" class="form-control" placeholder="Enter your name" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Email Address</label>
+            <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+        </div>
+
+        
+        <div class="mb-3">
+            <label class="form-label">Phone Number</label>
+            <input type="tel" name="phone" class="form-control" placeholder="Enter your phone number" required>
+        </div>
+
+        
+        <div class="mb-3">
+            <label class="form-label">Select Course</label>
+
+            <select class="form-control" name="course" required>
+                <option value="">-- Select Course --</option>
+
+                <optgroup label="B.Tech">
+                    <option>B.Tech Computer Engg.</option>
+                    <option>B.Tech Computer Science & Engg.</option>
+                    <option>B.Tech AI & ML</option>
+                    <option>B.Tech Mechanical Engg.</option>
+                    <option>B.Tech Civil Engg.</option>
+                    <option>B.Tech Electrical Engg.</option>
+                </optgroup>
+
+                <optgroup label="Graduation">
+                    <option>BCA</option>
+                    <option>BBA</option>
+                    <option>B.Com (Hons)</option>
+                    <option>B.Sc</option>
+                </optgroup>
+
+                <optgroup label="Post Graduation">
+                    <option>MBA</option>
+                    <option>MCA</option>
+                    <option>M.Tech</option>
+                    <option>M.Sc</option>
+                </optgroup>
+
+                <optgroup label="Pharmacy">
+                    <option>B.Pharmacy</option>
+                    <option>D.Pharmacy</option>
+                    <option>Pharm D</option>
+                </optgroup>
+
+                <optgroup label="Law">
+                    <option>LLB</option>
+                    <option>B.A LLB</option>
+                </optgroup>
+
+            </select>
+        </div>
+
+        
+        <div class="d-grid">
+            <button type="submit" class="btn btn-primary">
+                Register Now
+            </button>
+        </div>
+
+    </form>
+</div>
+
+
+
+     </div>
+    <section class="news">
+  <h2>Latest News</h2>
+
+  <div class="news-card">
+    <span class="tag new">NEW</span>
+    <h3>Examination Forms Available</h3>
+    <p class="date">April 25, 2026</p>
+    <p class="desc">Students can now fill out semester exam forms via the portal.</p>
+    <button onclick="window.location.href='https://www.google.com/url?sa=i&source=web&rct=j&url=https://agclms.in/Elogin/StudentLogin&ved=2ahUKEwjyw7ObwY6UAxUtTGwGHd9GL8wQy_kOegQIAxAC&opi=89978449&cd&psig=AOvVaw3yNc0Tt0nr2Pam-VhN5_EH&ust=1777395732595000'">Click me</button>
+    <div class="more">
+      Last date: May 5. Late fee applies after deadline.
+    </div>
+  </div>
+
+  <div class="news-card">
+    <span class="tag event">EVENT</span>
+    <h3>Annual Tech Conference</h3>
+    <p class="date">May 10, 2026</p>
+    <p class="desc">Join industry experts for workshops and talks.</p>
+    <button onclick="window.location.href='https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://agcamritsar.in/research4.php&ved=2ahUKEwiftfrbw46UAxU3TmwGHRjdI4oQFnoECBcQAQ&usg=AOvVaw3H_3GrVejbYcvTzaGv4y0b'">Click me</button>
+    <div class="more">
+      Register before May 5. Limited seats available.
+    </div>
+  </div>
+
+  </div>
+
+</section>
+
+  <!--why choose us end-->
+    <!--agc-nest-banner-start-->
+    <section class="scholarship-section" id="course">
+        
+        <div class="scholarship-container">
+            <div class="scholarship-content">
+                <span class="scholarship-badge">AGC NEST</span>
+                <h2 class="scholarship-title">Apply for Scholarship</h2>
+                <div class="scholarship-highlight">
+                    <svg class="icon-star" viewBox="0 0 24 24">
+                        <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                    </svg>
+                    <h2 class="scholarship-amount">Scholarship Up to ₹1.5 LACS</h2>
+                </div>
+                <a href="https://agcnest.in" class="cta-button" style="color:#fff; text-decoration:none">
+                    Apply Now
+                    <svg class="icon-arrow" viewBox="0 0 24 24">
+                        <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
+                    </svg>
+                </a>
+                <!--<p class="scholarship-deadline">Last date to avail scholarship is June 30, 2025</p>-->
+            </div>
+        </div>
+    </section>
+   <!-- ICONS ROW -->
+    
+<div class="icons-row">
+    <h3 id="about" class="highlight" style="text-align: center;"> About us</h3>
+    <img src="college.jpeg">
+    <img src="review2.jpeg">
+    <img src="review3.jpeg">
+     <img src="review4.jpeg">
+    </div>
+    <div class="ourstudents">
+       <div class="text"> <h2>WHY AGC IS THE BEST CHOICE FOR THE BRIGHT FUTURE</h2>
+        <p>Our college is a well-established and reputed institution dedicated to providing quality education and fostering the overall development students. Since its establishment, the college has been committed to academic excellence, innovation, and the development of professional skills among students. It offers a wide range of undergraduate and postgraduate courses in various fields such as engineering, management, and computer applications, supported by highly qualified and experienced faculty members. The campus is equipped with modern infrastructure, including well-maintained classrooms, advanced laboratories, a rich library, and excellent sports facilities,creating a perfect environment for learning and growth. Along with academics, the college actively promotes co-curricular and extracurricular activities such as cultural events, technical fests, seminars, and workshops to enhance students’ creativity and confidence. The institution also provides             strong placement support by organizing training sessions, internships, and campus recruitment drives              with reputed companies. With a focus on discipline, values, and career-oriented education, our college   aims to shape responsible, skilled, and successful individuals who can contribute positively to society.</p></div>
+      <div class="image"><img src="top.jpeg"></div>  
+  </div>
+  <footer class="footer" style="text-align: center;background-color: rgb(8, 97, 180);">
+    <div class="footer-container">
+        <div>
+            <h3 style="color:chocolate">Contact With Us</h3>
+            <h4 style="color:rgba(255, 127, 80, 0.925)"> Address</h4>
+            <p>💡 12km Stone,Amritsar-Jalander,G.T Road Amritsar-143001(PB),India</p>
+            
+        
+            <h3 style="color:coral">Helpline Number</h3>
+            <p>📞 8872009950</p>
+            <p>📞 8872009951<br>(24/7 Support Line)</p>
+            <h5 style="color:coral">Email</h5>
+            <p>✉admission@acetedu.in</p>
+        </div>
+    </div>
+
+    <p class="copyright">© 2026 AGC Clone</p>
+</footer>
+  </body>
+  </html>
